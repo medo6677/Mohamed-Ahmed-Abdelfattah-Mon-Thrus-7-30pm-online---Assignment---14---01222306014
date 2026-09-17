@@ -57,9 +57,9 @@ export default function Filter() {
       <div className="posts py-9">
         <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
           {/* View toggle header */}
-          <header className="mb-8">
-            <div className="flex items-center justify-between">
-              <p className="text-neutral-400">
+          <header className="mb-8 overflow-hidden">
+            <div className="flex items-center flex-wrap justify-between">
+              <p className="text-neutral-400 w-full sm:w-auto mb-2 sm:mb-0">
                 عرض{" "}
                 <span className="font-bold text-white">
                   {filteredPosts.length}
@@ -89,7 +89,7 @@ export default function Filter() {
                   </button>
                   <button
                     onClick={() => setViewMode("list")}
-                    className={`p-2 rounded-lg transition-all duration-300 text-neutral-400 hover:text-white cursor-pointer [&.active]:bg-orange-500 [&.active]:text-white ${
+                    className={` p-2 rounded-lg transition-all duration-300 text-neutral-400 hover:text-white cursor-pointer [&.active]:bg-orange-500 [&.active]:text-white ${
                       viewMode === "list" ? "active" : ""
                     }`}
                     title="عرض طولي"
