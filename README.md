@@ -2,8 +2,9 @@
 
   <img src="public/logo.png" alt="Adasa Logo" width="100" />
 
-  # 📸 Adasa | The World of Photography
-  ### A Modern Photography Blog & Learning Platform
+# 📸 Adasa | The World of Photography
+
+### A Modern Photography Blog & Learning Platform
 
   <p align="center">
     A photography blog platform providing insightful guides, professional tips, and techniques with a modern aesthetic and seamless user experience.
@@ -43,13 +44,13 @@
 
 ## 🧭 Pages & Routes
 
-| Path | Page | Description |
-| :--- | :--- | :--- |
-| `/` | **Home** | Hero section, featured articles, topic exploration, latest posts, and newsletter subscription |
-| `/blog` | **Blog** | Article directory with search, category filtering, view toggles, and pagination |
-| `/blog/:slug` | **Blog Details** | Comprehensive article reader, author biography, table of contents, and related articles |
-| `/about` | **About Us** | Mission statement, core values, editorial team showcase, and contact information |
-| `*` | **404 Not Found** | Interactive error page with quick links back to the main sections |
+| Path          | Page              | Description                                                                                   |
+| :------------ | :---------------- | :-------------------------------------------------------------------------------------------- |
+| `/`           | **Home**          | Hero section, featured articles, topic exploration, latest posts, and newsletter subscription |
+| `/blog`       | **Blog**          | Article directory with search, category filtering, view toggles, and pagination               |
+| `/blog/:slug` | **Blog Details**  | Comprehensive article reader, author biography, table of contents, and related articles       |
+| `/about`      | **About Us**      | Mission statement, core values, editorial team showcase, and contact information              |
+| `*`           | **404 Not Found** | Interactive error page with quick links back to the main sections                             |
 
 ---
 
@@ -100,31 +101,29 @@ myApp/
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
+
 Ensure you have [Node.js](https://nodejs.org/) installed (v18 or higher recommended).
 
 ### 2. Installation
+
 Clone the repository and install project dependencies:
+
 ```bash
 npm install
 ```
 
 ### 3. Development Server
+
 Run the local Vite development server:
+
 ```bash
 npm run dev
 ```
 
 ### 4. Production Build
+
 Create an optimized production bundle:
+
 ```bash
 npm run build
 ```
-
----
-
-## 👤 Student & Assignment Information
-
-- **Student Name:** Mohamed Ahmed Abdelfattah
-- **Course Track:** Route - Frontend React (Mon & Thu 7:30 PM Online)
-- **Assignment:** Assignment 14
-- **Contact:** 01222306014
