@@ -1,12 +1,12 @@
 <div align="center">
 
-  <img src="public/logo.png" alt="شعار عدسة" width="100" />
+  <img src="public/logo.png" alt="Adasa Logo" width="100" />
 
-  # 📸 منصة عدسة | عالم التصوير الفوتوغرافي
-  ### Adasa - Photography Blog & Learning Platform
+  # 📸 Adasa | The World of Photography
+  ### A Modern Photography Blog & Learning Platform
 
   <p align="center">
-    منصة تدوين عربية متخصصة في فن التصوير الفوتوغرافي، تقدم مقالات تعليمية، نصائح احترافية، وأسرار وتقنيات التصوير بتصميم عصري وتجربة مستخدم استثنائية.
+    A photography blog platform providing insightful guides, professional tips, and techniques with a modern aesthetic and seamless user experience.
   </p>
 
   <p align="center">
@@ -20,74 +20,76 @@
 
 ---
 
-## 🌟 مميزات المشروع (Key Features)
+## 🌟 Key Features
 
-- **🎨 تصميم عصري وداكن (Modern Dark Aesthetic):** واجهة مستخدم داكنة مستوحاة من أحدث معايير الويب مع تأثيرات Glassmorphism وتدرجات لونية برتقالية دافئة.
-- **🌐 دعم كامل للغة العربية (RTL First):** تخطيط مخصص بالكامل لاتجاه اليمين لليسار مع خطوط عربية أنيقة ومتناسقة.
-- **🔍 نظام فلترة وبحث متقدم (Filter & Search System):**
-  - تصفية المقالات حسب التصنيفات الفنية (إضاءة، بورتريه، مناظر طبيعية، معدات، إلخ).
-  - بحث فوري وسلس في عناوين ومقتطفات المقالات (Search in Title & Excerpt).
-  - زر إعادة تعيين الفلاتر بنقرة واحدة.
-- **📄 باجنيشن ذكي ومخصص (Custom Pagination):**
-  - تقسيم ديناميكي للمقالات (6 مقالات لكل صفحة).
-  - حساب تلقائي لعدد الصفحات مع أزرار التنقل (السابق / التالي / أرقام الصفحات).
-- **🔀 تبديل وضع العرض (Grid / List View Modes):** إمكانية التبديل الفوري بين العرض الشبكي (Grid) والعرض الطولي (List).
-- **🔗 نظام توجيه ذكي باستخدام الـ Slug (Slug-based Dynamic Routing):**
-  - روابط مقالات نظيفة ومحسنة لمحركات البحث (SEO-Friendly URLs) مثل `/blog/mastering-golden-hour-photography`.
-  - معالجة حالات عدم وجود المقال وعرض صفحة بديلة أنيقة.
-- **🔝 استعادة موضع التمرير (Scroll Restoration):** العودة التلقائية لأعلى الصفحة عند الانتقال بين المسارات والمقالات.
-- **🧩 بنية مكونات معيارية ونظيفة (Modular Architecture):** تقسيم مكونات الصفحة إلى أجزاء صغيرة يسهل صيانتها وإعادة استخدامها (`FilterBar`, `BlogCard`, `Pagination`, `EmptyPosts`).
+- **🎨 Modern Dark Aesthetic:** Sleek dark-mode interface built with modern web design standards, featuring glassmorphism backdrops, smooth transitions, and warm accent gradients.
+- **🌐 Full RTL Support:** Native Right-to-Left (RTL) layout with tailored typography designed for seamless Arabic reading.
+- **🔍 Advanced Search & Filter System:**
+  - Real-time search across article titles and excerpts.
+  - Multi-category filtering (Lighting, Portrait, Landscape, Gear, etc.).
+  - Instant one-click filter reset with dynamic counts.
+- **📄 Custom Pagination:**
+  - Client-side pagination (6 articles per page).
+  - Dynamic page calculation with previous/next controls and numbered navigation.
+  - Conditional rendering (automatically hides when single page).
+- **🔀 Display View Modes:** Instant toggle between **Grid View** and **List View** layouts.
+- **🔗 SEO-Friendly Slug Routing:**
+  - Dynamic clean URLs using article slugs (e.g., `/blog/mastering-golden-hour-photography`).
+  - Graceful fallback for non-existent articles.
+- **🔝 Automatic Scroll Restoration:** Seamless page transitions with automatic scroll-to-top on route changes and related article navigation.
+- **🧩 Clean & Modular Architecture:** Decomposed into focused single-responsibility components (`FilterBar`, `BlogCard`, `Pagination`, `EmptyPosts`).
 
 ---
 
-## 🧭 صفحات ومسارات الموقع (Pages & Routes)
+## 🧭 Pages & Routes
 
-| المسار (Path) | الصفحة (Page) | الوصف |
+| Path | Page | Description |
 | :--- | :--- | :--- |
-| `/` | **الرئيسية (Home)** | الهيرو، المقالات المميزة، استكشاف التصنيفات، أحدث المقالات، والنشرة البريدية |
-| `/blog` | **المدونة (Blog)** | استعراض كافة المقالات مع شريط البحث والفلترة والباجنيشن |
-| `/blog/:slug` | **تفاصيل المقال (Blog Details)** | قراءة المقال بالكامل، معلومات الكاتب، فهرس المحتويات، والمقالات المقترحة |
-| `/about` | **من نحن (About)** | رسالة المنصة، قيمنا، فريق المصورين، وقنوات التواصل |
-| `*` | **صفحة 404 (Not Found)** | صفحة خطأ مخصصة تفاعلية لإعادة توجيه المستخدم للمسار الصحيح |
+| `/` | **Home** | Hero section, featured articles, topic exploration, latest posts, and newsletter subscription |
+| `/blog` | **Blog** | Article directory with search, category filtering, view toggles, and pagination |
+| `/blog/:slug` | **Blog Details** | Comprehensive article reader, author biography, table of contents, and related articles |
+| `/about` | **About Us** | Mission statement, core values, editorial team showcase, and contact information |
+| `*` | **404 Not Found** | Interactive error page with quick links back to the main sections |
 
 ---
 
-## 🛠️ التقنيات المستخدمة (Tech Stack)
+## 🛠️ Tech Stack
 
-- **Framework:** [React 19](https://react.dev/)
+- **Frontend Library:** [React 19](https://react.dev/)
 - **Build Tool:** [Vite 8](https://vitejs.dev/)
 - **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
 - **Routing:** [React Router](https://reactrouter.com/)
 - **Icons:** [FontAwesome 6 / Free](https://fontawesome.com/)
-- **Data Source:** ملف بيانات محلي منظم بصيغة JSON
+- **Typography:** Google Fonts (Tajawal & Inter)
+- **Data Source:** Local structured JSON dataset
 
 ---
 
-## 📁 هيكل المشروع (Project Structure)
+## 📁 Project Structure
 
 ```text
 myApp/
 ├── public/
-│   ├── logo.png
-│   └── favicon.svg
+│   ├── logo.png             # Application logo
+│   └── favicon.svg          # Favicon asset
 ├── src/
-│   ├── assets/              # الصور والملفات الثابتة
+│   ├── assets/              # Static assets and images
 │   ├── data/
-│   │   ├── posts.json       # قاعدة بيانات المقالات والتصنيفات
-│   │   └── postsService.js  # دوال جلب، فلترة، وتقسيم المقالات
+│   │   ├── posts.json       # Articles and categories data
+│   │   └── postsService.js  # Data retrieval, filtering, and pagination helpers
 │   ├── features/
-│   │   ├── about/           # مكونات صفحة من نحن
-│   │   ├── blog/            # مكونات المدونة (Filter, FilterBar, BlogCard, Pagination, EmptyPosts)
-│   │   ├── home/            # مكونات الصفحة الرئيسية (Hero, Articles, Explore, New, Subscribe)
-│   │   └── Post/            # مكون قراءة تفاصيل المقال
+│   │   ├── about/           # About page feature components (Hero, OurValues, Team, Contact)
+│   │   ├── blog/            # Blog components (Filter, FilterBar, BlogCard, Pagination, EmptyPosts)
+│   │   ├── home/            # Homepage feature components (Hero, Articles, Explore, New, Subscribe)
+│   │   └── Post/            # Article reading view & related posts
 │   ├── layout/
-│   │   ├── Navbar.jsx       # القائمة العلوية
-│   │   ├── Footer.jsx       # التذييل وروابط التواصل
-│   │   └── Layout.jsx       # الهيكل العام ومزود ScrollRestoration
-│   ├── pages/               # الصفحات الرئيسية للموقع
-│   ├── App.jsx              # إعدادات المسارات (BrowserRouter)
-│   ├── main.jsx             # نقطة الدخول للتطبيق
-│   └── index.css            # إعدادات Tailwind والتنسيقات الأساسية
+│   │   ├── Navbar.jsx       # Global responsive header navigation
+│   │   ├── Footer.jsx       # Global footer and social channels
+│   │   └── Layout.jsx       # Base layout wrapper with ScrollRestoration
+│   ├── pages/               # Route entry pages (Home, Blog, BlogDetails, About, NotFound)
+│   ├── App.jsx              # Router configuration and routing definitions
+│   ├── main.jsx             # React entry point
+│   └── index.css            # Tailwind configuration & global CSS rules
 ├── index.html
 ├── package.json
 └── vite.config.js
@@ -95,31 +97,34 @@ myApp/
 
 ---
 
-## 🚀 تشغيل المشروع محلياً (Getting Started)
+## 🚀 Getting Started
 
-### 1. المتطلبات الأساسية
-تأكد من تثبيت [Node.js](https://nodejs.org/) على جهازك.
+### 1. Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed (v18 or higher recommended).
 
-### 2. تثبيت الحزم (Install Dependencies)
+### 2. Installation
+Clone the repository and install project dependencies:
 ```bash
 npm install
 ```
 
-### 3. تشغيل خادم التطوير (Run Dev Server)
+### 3. Development Server
+Run the local Vite development server:
 ```bash
 npm run dev
 ```
 
-### 4. بناء المشروع للإنتاج (Build for Production)
+### 4. Production Build
+Create an optimized production bundle:
 ```bash
 npm run build
 ```
 
 ---
 
-## 👤 بيانات الطالب والتسليم (Student Info)
+## 👤 Student & Assignment Information
 
-- **الاسم:** محمد أحمد عبد الفتاح (Mohamed Ahmed Abdelfattah)
-- **المجموعة:** Route - Mon & Thu 7:30 PM (Online)
-- **التكليف:** Assignment 14
-- **رقم التواصل:** 01222306014
+- **Student Name:** Mohamed Ahmed Abdelfattah
+- **Course Track:** Route - Frontend React (Mon & Thu 7:30 PM Online)
+- **Assignment:** Assignment 14
+- **Contact:** 01222306014
