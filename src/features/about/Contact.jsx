@@ -20,7 +20,7 @@ export default function Contact() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
             <a
-              href="mailto:[EMAIL_ADDRESS]"
+              href="mailto:mohamadahmad3669@gmail.com"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#0a0a0a] text-white font-semibold rounded-xl hover:bg-neutral-900 transition-all duration-300 hover:-translate-y-0.5"
             >
               <i className="w-5 h-5 fa-regular fa-envelope"></i>
